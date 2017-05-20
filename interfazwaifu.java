@@ -31,7 +31,8 @@ public class interfazwaifu extends javax.swing.JFrame {
     //estaba usando la declaracion de cadenas, pero es mejor usar un objetos que tengan, 
     //pregunta, respuestas e indice de pregunta asignados.
     public static int qcounter = 0;
-    public static int answnum = 100; //numero de respuesta que se van a usar
+    public static int answnum = 100; //numero de respuesta que se van a usar,(lo que el 
+    //usuario responde), que no se confunda con las opciones que daremos.
     public static String[] answ = new String[answnum];
     
     /**
